@@ -1,7 +1,8 @@
 export function request(ctx) {
   const { ingredients = [] } = ctx.args;
 
-  const prompt = `Suggest a recipe idea using these ingredients : ${ingredients.join(
+  // const prompt = `Suggest a recipe idea using these ingredients : ${ingredients.join(
+  const prompt = `Cadangkan satu resipi berdasarkan bahan bahan berikut: ${ingredients.join(
     ","
   )}.`;
 
